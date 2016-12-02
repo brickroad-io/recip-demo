@@ -61,7 +61,7 @@ html, body {
   background-color: #4f4f4f;
 }
 
-.camera_container a {
+.camera_container label {
   padding: 35px;
   display: inline-block;
   border: 3px solid #797979;
@@ -75,4 +75,13 @@ html, body {
 .camera_container i {
   font-size: 80px;
   line-height: 80px;
+}
+
+.inputfile {
+	width: 0.1px;
+	height: 0.1px;
+	opacity: 0;
+	overflow: hidden;
+	position: absolute;
+	z-index: -1;
 }
